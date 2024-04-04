@@ -11,7 +11,7 @@ const Menu = () => {
     const activeMenuItem = useSelector((state) => state.menu.activeMenuItem)
 
     const handleMenuClick = (itemName) => {
-        dispatch (menuItemClick(item))
+        dispatch (menuItemClick(itemName))
     }
 
     return (
